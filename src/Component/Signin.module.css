@@ -1,0 +1,85 @@
+/* Signin.module.css */
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px; /* Set width to create a rectangular shape */
+  padding: 40px; /* Adjust padding for a balanced look */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px; /* Adjusted margin for spacing between fields */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input::placeholder {
+  color: #888;
+}
+
+.button {
+  width: 100%; /* Button width matches input fields */
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Space between button and link */
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .form {
+    width: 90%; /* Make form responsive */
+    padding: 20px;
+  }
+
+  .h2 {
+    font-size: 1.5rem;
+  }
+}
